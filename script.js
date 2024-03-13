@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if ((hour === 15 && minutes === 14)||(hour === 3 && minutes === 14)) {
             // Display an image at 3:14 
             contentDiv.innerHTML = '<img src="./assets/Pie.png" alt="Special Image">';
-            contentDiv.innerHTML += '<div class="overlay">Happy Pi Day</div>';
+            contentDiv.innerHTML += '<div class="overlay">Happy π Day!</div>';
 
         } else {
             // Display text at all other times
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
             contentDiv.innerHTML = '<img src="./assets/Pie.png" alt="Special Image">';
         } else {
             // Display text at all other times
-            contentDiv.innerHTML = '<p>Come back at 3:14</p>';
+            contentDiv.innerHTML = '<p>come back at 3:14</p>';
         }
 
     }
