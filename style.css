@@ -1,15 +1,31 @@
-H1{
-    color : forestgreen;
-
-
+/* This will apply to both the image and the text within the #content div */
+#content {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Use the full height of the viewport */
+    text-align: center; /* Ensure text is centered if it spans multiple lines */
+    background-color: azure;
 }
 
-#mainHeader {
-    color: rgb(24, 109, 43);
-    background-color: rgb(212, 229, 243);
+#content img {
+    max-width: 50%; /* Adjust the image size, ensuring it's not too large */
+    height: auto; /* Maintain aspect ratio */
+    border: 0; /* Remove any default borders */
+}
+
+#content p {
+    font-size: 20px; /* Set the size of the text */
+    color: #333; /* Set the text color */
+}
+
+
+/*
+#content {
+    color: rgb(109, 24, 61);
+    background-color: rgb(213, 213, 213);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-stretch:extra-expanded;
-    margin: 5%;
     text-align: center;
 }
 p{
@@ -35,6 +51,6 @@ h3{
     text-decoration: underline rgba(24, 109, 43, 0.5) dashed 3.5px;
 }
 body{
-    background-color: azure;
+    background-color: rgb(0, 0, 0);
 
-}
+} */
