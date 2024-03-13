@@ -1,0 +1,40 @@
+H1{
+    color : forestgreen;
+
+
+}
+
+#mainHeader {
+    color: rgb(24, 109, 43);
+    background-color: rgb(212, 229, 243);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-stretch:extra-expanded;
+    margin: 5%;
+    text-align: center;
+}
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(19, 28, 21);
+    text-align: center;
+    border: dashed;
+    padding:10px;
+    border-color:rgba(24,66,13,0.4);
+    border-width: thick;
+}
+#makeBlock{
+    display:block;
+
+
+
+}
+span{
+    text-align:center;
+}
+h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline rgba(24, 109, 43, 0.5) dashed 3.5px;
+}
+body{
+    background-color: azure;
+
+}
